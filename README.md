@@ -45,6 +45,11 @@ The **Multi-Agent Tourism Assistant** is an intelligent system that helps travel
 
 Built using a **multi-agent architecture**, the system coordinates specialized agents to fetch and process information from multiple free APIs, providing a seamless experience without requiring any API keys or authentication.
 
+### Data Retrieval Workflow
+
+<div align="center">
+  <img src="assets/workflow.png" alt="Data Retrieval Workflow" width="700">
+</div>
 ---
 
 ## ✨ Features
@@ -66,3 +71,69 @@ Built using a **multi-agent architecture**, the system coordinates specialized a
 | **Places Only** | "I'm going to Rome, let's plan my trip" |
 | **Combined** | "What's the temperature in Dubai and what can I visit?" |
 
+---
+
+## 🎬 Demo
+
+### Example Interaction 1: Trip Planning
+👤 You: I'm going to Pune, let's plan my trip   
+
+🤖 Processing your request...
+
+🔍 Looking up location: Pune...
+🗺️  Finding tourist attractions...
+
+✨ Tourism Agent:
+Here are some great places you can visit in Pune:
+  1. National War Memorial Southern Command (Memorial)
+  2. Parvati Museum (Museum)
+  3. Parvati (Viewpoint)
+  4. Bajirao I statue (Artwork)
+  5. Maharshi Dhondo Keshav Karve (Artwork)
+---
+### Example Interaction 2: Weather Check
+👤 You: What's the temperature in Bengaluru?
+
+🤖 Processing your request...
+
+🔍 Looking up location: Bengaluru...
+
+🌤️  Fetching weather data...
+
+✨ Tourism Agent:
+
+In Bengaluru, it's currently 20.6°C with overcast and a 68% chance of rain.
+
+---
+### Example Interaction 3: Complete Planning
+👤 You: I'm going to Mumbai, what's the weather and what can I visit??
+
+🤖 Processing your request...
+
+🔍 Looking up location: Mumbai...
+
+🌤️  Fetching weather data...
+
+🗺️  Finding tourist attractions...
+
+✨ Tourism Agent:
+
+In Mumbai, it's currently 26.3°C with mainly clear and a 0% chance of rain.
+
+Here are some great places you can visit in Mumbai:
+  1. Amphitheatre (Attraction)
+  2. Bandra Fort (Ruins)
+  3. Dr Babasaheb Ambedkar (Artwork)
+  4. Lal Bahadur Shastri (Memorial)
+  5. Castella de Aguada (Attraction)
+---
+### Example Interaction 4: Error Handling
+👤 You: i want to visit nullcity 
+
+🤖 Processing your request... 
+
+🔍 Looking up location: nullcity... 
+
+✨ Tourism Agent: 
+
+I'm sorry, I don't know where 'nullcity' is. It doesn't seem to exist in my database. Could you please check the spelling or try a different place?
