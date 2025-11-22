@@ -50,6 +50,7 @@ Built using a **multi-agent architecture**, the system coordinates specialized a
 <div align="center">
   <img src="workflow.png" alt="Data Retrieval Workflow" width="700">
 </div>
+
 ---
 
 ## ✨ Features
